@@ -24,14 +24,14 @@ pipeline {
         sh 'mvn test'
       }
     }
-    stage('') {
+    stage('mvn test') {
       steps {
-        echo 'Kumar'
+        sh 'mvn test'
       }
     }
     stage('Testing') {
       steps {
-        echo 'kumar'
+        echo 'Completed'
       }
     }
   }
