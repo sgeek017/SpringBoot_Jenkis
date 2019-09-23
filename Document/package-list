@@ -1,0 +1,5 @@
+com.springboot.RestApplication
+com.springboot.RestApplication.api
+com.springboot.RestApplication.dao
+com.springboot.RestApplication.model
+com.springboot.RestApplication.service

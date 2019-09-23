@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "284c8b5e-b310-4f98-8ba1-a04e00fc158c",
+		"name": "SpringBoot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/person",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/v1/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"madhan23\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/person",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/v1/person/ab3a7ce2-f441-4e72-9889-05493082f2e9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/person/a1ce0533-c995-4957-8345-4bb4e6e4b73e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"person",
+						"a1ce0533-c995-4957-8345-4bb4e6e4b73e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/v1/person/a1ce0533-c995-4957-8345-4bb4e6e4b73e",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"madhanKumar87\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/person/a1ce0533-c995-4957-8345-4bb4e6e4b73e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"person",
+						"a1ce0533-c995-4957-8345-4bb4e6e4b73e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
